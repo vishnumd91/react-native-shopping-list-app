@@ -8,12 +8,14 @@
 
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
+import Card from './components/CardComponent/card';
 import Heading from './components/HeadingComponent/heading';
 
 const App = () => {
   return (
     <View style={styles.container}>
       <Heading />
+      <Card text={'This is a List'} />
     </View>
   );
 };
